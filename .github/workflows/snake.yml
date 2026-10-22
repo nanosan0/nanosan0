@@ -24,6 +24,10 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
+          # 配色跟主页的墨绿主色 (#0d7d74) 对齐，避免默认紫色跟页面打架。
+          # color_dots 依次是「最浅 -> 最深」五档。
+          color_snake: "#0d7d74"
+          color_dots: "#ebedf0,#c6e9e3,#8ed3c9,#4bbfae,#0d7d74"
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
