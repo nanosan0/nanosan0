@@ -24,13 +24,11 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 配色跟主页的墨绿主色 (#0d7d74) 对齐，避免默认紫色跟页面打架。
-          # color_dots 依次是「最浅 -> 最深」五档。
-          color_snake: "#0d7d74"
-          color_dots: "#ebedf0,#c6e9e3,#8ed3c9,#4bbfae,#0d7d74"
+          # 配色写在 outputs 的查询串里（不是 action 的顶层参数，写顶层会被静默忽略）。
+          # color_snake / color_dots 对齐主页墨绿主色 #0d7d74，# 需编码成 %23。
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%230d7d74&color_dots=%23ebedf0,%23c6e9e3,%238ed3c9,%234bbfae,%230d7d74
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%234bbfae
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
