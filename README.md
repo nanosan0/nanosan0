@@ -62,10 +62,10 @@
 ### 🛠 我在用的
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OpenCore-1.0.8-0d7d74?style=for-the-badge" alt="OpenCore">
-  <img src="https://img.shields.io/badge/macOS-26%20Tahoe-1c1917?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
-  <img src="https://img.shields.io/badge/Windows-Win11-0078D6?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/NVIDIA-RTX%204060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA">
+  <img src="https://img.shields.io/badge/OpenCore-1.0.8-0d7d74?style=flat-square" alt="OpenCore">
+  <img src="https://img.shields.io/badge/macOS-26%20Tahoe-1c1917?style=flat-square&logo=apple&logoColor=white" alt="macOS">
+  <img src="https://img.shields.io/badge/Windows-Win11-0078D6?style=flat-square&logo=windows11&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/NVIDIA-RTX%204060-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA">
 </p>
 
 ---
