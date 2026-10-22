@@ -77,6 +77,15 @@
 <!-- 打卡图：按 commit 统计。刚建号时数字会比较小，正常。不想要就删掉这一节。 -->
 <a href="https://github.com/nanosan0"><img src="https://streak-stats.demolab.com?user=nanosan0&locale=zh_CN&theme=default&hide_border=true&date_format=Y.n.j&ring=0d7d74&fire=0d7d74&currStreakLabel=0d7d74&sideLabels=1f6feb&dates=555555" alt="提交连续天数" width="70%" /></a>
 
+<br><br>
+
+<!-- 蛇吃贡献格子：由 .github/workflows/snake.yml 每天生成到 output 分支。
+     第一次要在 Actions 里手动跑一次（Run workflow），否则这里是裂图。 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanosan0/nanosan0/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/nanosan0/nanosan0/output/github-contribution-grid-snake.svg" alt="蛇吃贡献格子" width="100%">
+</picture>
+
 </div>
 
 ---
