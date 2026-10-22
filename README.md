@@ -66,7 +66,6 @@
   <img src="https://img.shields.io/badge/macOS-26%20Tahoe-1c1917?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
   <img src="https://img.shields.io/badge/Windows-Win11-0078D6?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows">
   <img src="https://img.shields.io/badge/NVIDIA-RTX%204060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA">
-  <img src="https://img.shields.io/badge/ocvalidate-No%20issues%20found-brightgreen?style=for-the-badge" alt="ocvalidate">
 </p>
 
 ---
